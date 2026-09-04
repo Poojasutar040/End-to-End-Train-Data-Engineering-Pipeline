@@ -8,3 +8,4 @@ data/cleaned/
 data/processed/
 
 *.pkl
+data/aggregated/train_station_cross_table.csvgit rm --cached data/aggregated/train_station_cross_table.csv
