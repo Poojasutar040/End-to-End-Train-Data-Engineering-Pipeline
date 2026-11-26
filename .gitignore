@@ -1,11 +1,20 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
 venv/
+.pytest_cache/
 
-data/raw/
-data/cleaned/
-data/processed/
+# Environment variables (never commit real passwords)
+.env
 
-*.pkl
-data/aggregated/train_station_cross_table.csvgit rm --cached data/aggregated/train_station_cross_table.csv
+# Logs and generated outputs
+logs/
+reports/outputs/*.csv
+reports/outputs/*.md
+data/aggregated/train_station_cross_table.csv
+
+.env.txt
+
+.venv313/
